@@ -1,0 +1,16 @@
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.exe
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.deps.json
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.runtimeconfig.json
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.runtimeconfig.dev.json
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.dll
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\ref\DICE_ROLLER.dll
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\bin\Debug\net5.0\DICE_ROLLER.pdb
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.GeneratedMSBuildEditorConfig.editorconfig
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.AssemblyInfoInputs.cache
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.AssemblyInfo.cs
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.csproj.CoreCompileInputs.cache
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.dll
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\ref\DICE_ROLLER.dll
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.pdb
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.genruntimeconfig.cache
+C:\GCBootcamp\labs_gcbc\DICE_ROLLER\DICE_ROLLER\obj\Debug\net5.0\DICE_ROLLER.csproj.AssemblyReference.cache
