@@ -5,8 +5,7 @@ namespace DICE_ROLLER
     // Extra Challenges:Come up with a set of winning combinations for other dice sizes besides 6.
     public class DiceRoller
     {
-
-        public static string generateRandonDiceRoll(int sidesOnDice)
+        public static string generateRandomDiceRoll(int sidesOnDice)
         {
             Random rand = new Random();
             int ranNum1 = rand.Next(1, (sidesOnDice + 1));
@@ -21,16 +20,25 @@ namespace DICE_ROLLER
         {
             int total = diceOne + diceTwo;
 
+            if(total == 2 || total == 3 || total == 12)
+            {
+                Console.WriteLine("CRAPS!");
+            }
+            else if(total == 7 || total == 11)
+            {
+                Console.WriteLine("YOU WIN!!");
+            }
+
             switch (total)
             {
                 case 2:
-                    return $"Snake Eyes: Two {diceOne}s"; // Clarify this - Craps: A total of 2, 3, or 12 (will also generate another message!)
+                    return $"Snake Eyes: Two {diceOne}s";
                 case 3:
                     return $"Ace Deuce: A {diceOne} and {diceTwo}";
                 case 7:
-                    return $"A {diceOne} and a {diceTwo}! Total {total}. YOU WIN!";
+                    return $"A {diceOne} and a {diceTwo}! Total {total}.";
                 case 11:
-                    return $"A {diceOne} and a {diceTwo}! Total {total}. YOU WIN!";
+                    return $"A {diceOne} and a {diceTwo}! Total {total}.";
                 case 12:
                     return $"Box Cars: Two {diceOne}s";
                 default:
@@ -42,7 +50,7 @@ namespace DICE_ROLLER
         {
             var rollDice = true;
 
-            Console.WriteLine("So ya feeling Lucky, huh? - Enter number of sides for your dice: ");
+            Console.Write("So ya feeling Lucky, huh? - Enter number of sides for your dice: ");
             var sidesOnDice = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Please hit ENTER to roll the dice.");
@@ -50,10 +58,11 @@ namespace DICE_ROLLER
 
             do
             {
-                var outcomeMessage = generateRandonDiceRoll(sidesOnDice);
+                var outcomeMessage = generateRandomDiceRoll(sidesOnDice);
                 Console.WriteLine(outcomeMessage);
+                Console.WriteLine();
 
-                Console.WriteLine("To roll again, please enter 'yes' or 'y' -OR- press any other key to exit.");
+                Console.Write("To roll again, please enter 'yes' or 'y' -OR- press any other key to exit.");
                 var rollAgain = Console.ReadLine().ToLower();
 
                 if (rollAgain != "y" && rollAgain != "yes")
